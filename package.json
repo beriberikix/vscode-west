@@ -1,5 +1,6 @@
 {
   "name": "vscode-west",
+  "preview": true,
   "displayName": "West, Zephyr's meta-tool",
   "description": "An extension to simplify the use of West (Zephyr's meta-tool) in Visual Studio Code",
   "version": "0.0.1",
@@ -16,6 +17,7 @@
   "contributes": {
     "commands": [
       {
+        "category": "west",
         "command": "vscode-west.helloWorld",
         "title": "Hello World"
       }

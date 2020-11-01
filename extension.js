@@ -21,7 +21,7 @@ function activate(context) {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from West, Zephyr&#39;s meta-tool!');
+		vscode.window.showInformationMessage("Hello World from West, Zephyr's meta-tool!");
 	});
 
 	context.subscriptions.push(disposable);
@@ -29,7 +29,7 @@ function activate(context) {
 exports.activate = activate;
 
 // this method is called when your extension is deactivated
-function deactivate() {}
+function deactivate() { }
 
 module.exports = {
 	activate,
